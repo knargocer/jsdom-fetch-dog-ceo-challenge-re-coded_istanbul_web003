@@ -9,7 +9,7 @@ fetch(imgUrl)
 .then(function(json){
   let data = JSON.parse(json);
   for(let i = 0 ; i<json.length; i++){
-    document.querySelector()
+    document.querySelector("#dog-image-container").innerHTML=+ "<img src = json[i]>";
   }
   
     
